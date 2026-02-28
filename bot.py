@@ -12,7 +12,7 @@ import json, os
 from datetime import datetime, timezone
 
 # ---- CONFIGURE THESE ----
-BOT_TOKEN         = "os.environ.get("BOT_TOKEN")"
+BOT_TOKEN         = os.environ.get("BOT_TOKEN")
 STATUS_CHANNEL_ID = 1477197030588809336  # ID of your #tribe-status channel
 ADMIN_ROLE_NAME   = "Tribe Admin"  # Role that can manage tribes/members
 DATA_FILE         = "tribe_data.json"
